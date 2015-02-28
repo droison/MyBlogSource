@@ -1,8 +1,8 @@
 Date: 2014-08-15  
 Title:  iOS tips 140815   
 Published: true  
-Type: post  
-Excerpt:   
+Category: iOS   
+Author: billchai   
 
 
 
