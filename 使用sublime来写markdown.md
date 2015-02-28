@@ -1,12 +1,12 @@
 Date: 2015-02-28 08:51:23  
-Title:   
+Title: 使用sublime来写markdown
 Published: true  
-Category:   
-Tags:  
+Category: 工具 
+Tags:  sublime
 Author: song
 
 Last modified by:  song
-Last Modified time: 2015-02-28 09:37:57
+Last Modified time: 2015-02-28 10:00:41
 # 使用sublime来写markdown
 sublime是一款非常NB的编辑器，同时兼容Mac、linux和Windows，通过插件化可以将其变得非常强大，无所不能。这两天看到身后的domick非常熟练的使用sublime text，感觉非常羡慕，遂学了一点简单的使用，但愿能够长期使用下去。
 ## 1、增加包管理工具 package control
