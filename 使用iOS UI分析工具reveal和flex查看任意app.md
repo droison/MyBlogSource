@@ -1,3 +1,12 @@
+Date: 2015-03-02 20:06:22  
+Title: 使用iOS UI分析工具reveal和FLEX查看任意app
+Published: true  
+Category: iOS  
+Tags: reveal, FLEX 
+Author: song
+
+Last modified by:  song
+Last Modified time: 2015-03-02 20:57:28
 # 使用iOS UI分析工具reveal和FLEX查看任意app
 对于iOS开发，[reveal](http://revealapp.com/)和[FLEX](https://github.com/Flipboard/FLEX)应该都不陌生，相比于reveal，FLEX堪称单机版reveal，虽然没有reveal直观，但更加方便，最新版本的FLEX增加了很多网络调试的功能，使得不仅仅应用于UI部分。
 
@@ -102,4 +111,4 @@ reveal在安装时就提供了它的dylib文件，FLEX可以根据我在另一�
 * 使用reveal动态查看所有越狱app ：http://c.blog.sina.com.cn/profile.php?blogid=cb8a22ea89000gtw
 * 如何配置flex的启动： http://itony.me/774.html
 
-[XCode6如何打包动态库]: http://revolunet.com
+[XCode6如何打包动态库]: zi-ji-dong-shou-zai-xcode6xia-bian-xie-dylibdong-tai-ku-wen-jian.html
