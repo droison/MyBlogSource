@@ -6,7 +6,7 @@ Tags: dylib, framework
 Author: song
 
 Last modified by:  song
-Last Modified time: 2015-03-02 11:45:14
+Last Modified time: 2015-03-02 20:03:18
 # 自己动手在xcode6下编写dylib动态库文件
 WWDC2014上发布的Xcode6在iOS上开放了动态库，可以直接通过xcode6*版本进行构建自己的framework动态库，具体可以参见[New Features in Xcode 6](https://developer.apple.com/library/prerelease/ios/documentation/DeveloperTools/Conceptual/WhatsNewXcode/Articles/xcode_6_0.html)至于具体能不能通过Appstore的审核，尚不清楚。
 
@@ -56,13 +56,15 @@ XCode默认的动态库打包格式是.framework，我需要打包.dylib格式�
 ## 3、将.dynamic文件打包为.dylib文件
 此时必须已经正确安装iOSOpenDev，否则会出现lib不能找到的error。此处感谢万能的stackoverflow，很简单，就不做翻译了，
 
-* 1. Open the file project.pbxproj (found inside the Xcode project file bundle) in a Text Editor. Search for string "producttype", change it’s value to com.apple.product-type.library.dynamic;
+* 1. Open the file project.pbxproj (found inside the Xcode project file bundle) in a Text Editor. Search for string "producttype", change it’s value to com.apple.product-type.library.dynamic;(此处原来值未com.apple.product-type.framework)
 * 2. "Installation Directory" set to @executable_path/ because I plan to put the dylib in the same directory as the app’s executable.
 * 3. "Mach-O Type" set to Dynamic Library
 * 4. "Executable Extension" set to dylib
 * 5. "Executable Prefix" set to empty
 
 完成以上5步，"cmd+b"编译成的文件就变成.dylib文件了。
+
+`注：以上两种方式都只支持到iOS7，不向下支持`
 
 ## 参考文章
 * <http://foggry.com/blog/2014/06/12/wwdc2014zhi-iosshi-yong-dong-tai-ku/>
